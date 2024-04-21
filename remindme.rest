@@ -1,0 +1,8 @@
+# create new todo
+POST "http://localhost:3001/todo"
+Content-Type: "application/json"
+
+{
+    "Name": "todo1",
+    "Completed": true
+}
